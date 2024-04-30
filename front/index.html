@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>List of agents</h1>
+    <div id="agents"></div>
+    <form>
+      <input type="text" name="agent" />
+      <button type="button" onclick="sendAgent()">Send agent</button>
+    </form>
+    <script>
+      // fetch data from api and display it
+      fetch("")
+        .then((response) => response.json())
+        .then((data) => {
+          console.log(data);
+          let agents = document.querySelector("#agents");
+          data.forEach((agent) => {
+            agents.innerHTML += `
+                    <h2>${agent.name}</h2>
+                    <h3>${agent.metier}</h3>
+                `;
+          });
+        });
+    </script>
+  </body>
+</html>

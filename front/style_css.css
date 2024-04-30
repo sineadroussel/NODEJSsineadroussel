@@ -1,0 +1,76 @@
+.block {
+  color: white;
+  margin-left: 10px;
+  padding-right: 10px;
+  background-color: #000;
+}
+
+.white {
+  color: white;
+}
+
+/* Alignement du titre */
+.titre {
+  text-align: center;
+  color: pink;
+}
+
+/* paragraphe quand on rentre dans le site pour l'aligner*/
+.paragraphe {
+  text-align: justify;
+}
+
+/*Pour le darkmode/lightmode*/
+.light {
+  background-color: white;
+  color: black;
+}
+.darkmode {
+  background-color: black;
+  color: white;
+}
+
+/*Pour le SwiperDemos images qui tournent*/
+body {
+  position: relative;
+  height: 10%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+/*Cartes Harry Potter */
+.Images {
+  display: flex;
+  width: 10%;
+  height: 10%;
+}

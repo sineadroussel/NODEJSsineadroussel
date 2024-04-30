@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style_css.css">
+  <form>
+    <!--<input type="text" name="agent" /> -->
+  <!--bouton pour updater les agents-->
+    <button type="button" onclick="updateAgent()">Update Agent</button>
+
+
+   <!--bouton pour envoyer le nom des agents-->
+      <input type="text" name="agent" />
+
+      <button type="button" onclick="sendAgent()">Send agent</button>
+
+      <input type="text"  name=" Age" />
+      <button type="button" onclick="Age()">Age</button>
+
+       
+
+      <!--création du bouton email et mot de passe-->
+      <label for="email">Email</label>
+      <input
+          type="email"
+
+          name="email"
+
+      />
+
+      <label for="password">Password</label>
+      <input
+      type="password"
+
+      name="password"
+      />
+
+      <button
+          type="button"
+
+          onclick="logIn()">
+          Log In
+      </button>
+
+      <!--bouton pour renommer et supprimer-->
+    <a href="index.html?od=${fate.id}">Rename</a>
+    <button onclick="deleteAgent()">Delete</button>
+  </form>
+  
+  
+    <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Demo styles -->
+  <style>
+
+  </style>
+</head>
+  <!-- Demo styles -->
+
+  <body>
+    
+
+
+		</form>
+		<a href="signup.html">S'inscrire</a>
+		<script src="AgentController.js"></script>
+    <!--Titre du site-->
+    <h1 class="titre">Cartes à collectioner Harry Potter</h1>
+
+    <!--Création du bouton pour changer la couleur du site en dark mode ou light mode-->
+      <button onclick="myFunction()">Changer l'apparence</button>
+       
+      <h2 class="block"> Acceuil     Cartes     Panier  Se connecter  Aide</h2>
+      
+       <!-- Swiper Demos pour tourner les images-->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+
+            <!--Premiere Image-->
+            <img src="https://i.familiscope.fr/1800x0/smart/2021/11/05/harry-potter-la-saga-des-films.jpg"/><p>Harry Potter à l'école des sorciers (2001)</p>
+          </div>
+          <div class="swiper-slide">
+            <!--Deuxième image-->
+            <img src="https://vl-media.fr/wp-content/uploads/2022/12/Harry-Potter-Visu-News-1024x750-1.jpg" /><p>Harry Potter et le Prisonnier d'Azkaban (2004)</p>
+          </div>
+          <div class="swiper-slide">
+            <!--Troisième Image-->
+            <img src="https://www.radiofrance.fr/s3/cruiser-production/2018/10/05e2cf52-d708-473e-a666-c4d85c005eaf/870x489_image_content_24195956_20180919155929.jpg" /><p>Harry Potter, Hermione Granger et Ron Weasley</p>
+          </div>
+          <div class="swiper-slide">
+            <!--Quatrième Image-->
+            <img src="https://www.ecranlarge.com/media/cache/1600x1200/uploads/articles/001/040/205/harry-potter-et-les-reliques-de-la-mort-2eme-partie-notre-classement-de-la-saga-du-pire-au-meilleur-1499206-large.jpg" /><p>Harry Potter et les reliques de la mort (2011)</p>
+          </div>
+          <div class="swiper-slide">
+            <!--Cinquième image-->
+            <img src="https://cdn.sortiraparis.com/images/80/66131/620505-harry-potter-bientot-une-serie-en-preparation-pour-hbo-max.jpg" /><p>Harry, Hermione et Ron à Poudlard</p>
+          </div>
+          <div class="swiper-slide">
+            <!--Sixième image-->
+            <img src="https://i0.wp.com/seriesdefilms.com/wp-content/uploads/2021/01/42-423519_harry-potter.jpg?fit=1280%2C720&ssl=1" /><p>Harry, Hermione et Ron et les reliques de la mort (2010)</p>
+          </div>
+        </div>
+        <!--Boutons pour changer d'image-->
+        <div class="swiper-button-next"></div>
+        <!--Boutons pour revenir à l'image précédente-->
+        <div class="swiper-button-prev"></div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    
+      <!-- paragraphe en debut de site pour explication du site-->
+      <h3 class="pargraphe"> Bienvenue sur le site du jeu de cartes d'Harry Potter. Découvrez la magie dans vos mains. Emportez avec vous les neufs grands personnages, Harry, Hermione, Ron, Lord Voldemort, Draco Malfoy, Dumbledore, Sirius Black, Bellatrix Lestrange, Lucius Malfoy Attention chaque carte à son pouvoir et ses spécifités. Rentrez dans le monde enchanté des sorciers et quittez la terre des moldus. Un monde plein de magies et d'aventures. Cartes à collectioner et d'autres sont à venir !</h3>
+      
+      <!--Passez aux cartes dans le site-->
+      <h2>Cartes</h2>
+
+
+<!-- Dernier exercice noté-->
+<div id="harrypotter"></div>
+
+
+
+
+</div>
+
+ <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+      <script src="sitejs.js"></script>
+      <script src="login.js"></script>
+    </script>
+  </body>
+  
+  </html>
